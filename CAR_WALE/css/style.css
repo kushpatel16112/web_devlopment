@@ -1,0 +1,1623 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#page{
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color:#0C1221;
+    color:rgba(240, 255, 255, 0.684);
+    font-size: 6vw;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 6vh;
+}
+
+#nav{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    z-index: 10;
+}
+
+#nav .logo a{
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-left: 3vw;
+    color: rgba(125, 234, 234, 0.802);
+    font-weight: 900;
+}
+
+#nav #logo_1 {
+    position: absolute;
+}
+
+#nav #logo_2 {
+    position: absolute;
+    padding-top: 10vh;
+    padding-left: 1.5vw;
+}
+
+#nav #mainmenu a{
+    color:rgba(240, 255, 255, 0.684) ;
+    text-decoration: none;
+}
+
+#nav #mainmenu a:hover{
+    color:aquamarine;
+
+}
+
+#nav #menu{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 5px;
+    border: 1px  solid rgba(240, 255, 255, 0.684) ;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.75vw;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 89vw;
+    margin-top: 8vh;
+    text-transform: uppercase;
+}
+
+#nav #menu:hover{
+   background-color:rgba(240, 255, 255, 0.400);
+}
+
+#nav #menu:hover a{
+    color:#0C1221;
+}
+
+#nav #menu a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#page #h1_1{
+    margin-top: 27vh;
+    margin-left: 10vw;
+    position: absolute;
+    z-index: 3;
+    
+    
+}
+#page #h1_2{
+    margin-left: 40vw;
+    margin-top:47vh ;
+    position: absolute;
+    z-index: 3;
+    line-height: 35vh;
+   
+}
+#page #i1{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 18vh;
+    margin-left: 5vw;
+    position: absolute;
+    border-radius: 10%;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i2{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 18vh;
+    margin-left: 38vw;
+    position: absolute;
+    border-radius: 10%;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i3{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 18vh;
+    margin-left: 73vw;
+    position: absolute;
+    border-radius: 10%;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i4{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 68vh;
+    margin-left: 73vw;
+    position: absolute;
+    border-radius: 10%;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i5{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 68vh;
+    margin-left: 38vw;
+    position: absolute;
+    border-radius: 10%;
+    margin-bottom: 10vh;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i6{
+    height: 23vh;
+    width: 17vw;
+    margin-top: 68vh;
+    margin-left: 5vw;
+    position: absolute;
+    border-radius: 10%;
+    margin-bottom: 10vh;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(55%);
+}
+#page #i7{
+    height: 40vh;
+    width: 28vw;
+    margin-top: 35vh;
+    margin-left: 15vw;
+    position: absolute;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(75%);
+
+}
+#page #i8{
+    height: 40vh;
+    width: 28vw;
+    margin-top: 35vh;
+    margin-left: 50vw;
+    position: absolute;
+    /* position: fixed; */
+    z-index: 1;
+    filter: brightness(75%);
+   
+
+}
+#movingtext{
+    padding-top: 120vh;
+    display: flex;
+    overflow-x:hidden;
+    max-width: 100vw;
+    
+}
+#movingtext::-webkit-scrollbar{
+    display: none;
+    
+}
+#movingtext .cont{
+    display: flex;
+    animation: move 10s linear  infinite ;
+}
+#movingtext h1{
+    font-size: 7vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+#round{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    
+}
+
+/* Animation for movingtext */
+@keyframes move {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+#page #heading{
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page #heading h1{
+    padding-top: 2vh;
+    text-transform: uppercase;
+    font-weight:bolder;
+    word-spacing: 3px;
+    font-size: 18px;
+    position: fixed;
+}
+#popular{
+    height: 300vh;
+    max-width: 100vw;
+}
+#popular #heading_1 h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    padding-top: 40vh;
+    padding-left: 40vw;
+    
+}
+#popular #imgtextcontainer_1{   
+    height: 80vh;
+    width:35vw;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    /* position: absolute; */
+    float: left;
+    
+}
+#popular #imgtextcontainer_1 a{
+    text-decoration: none;
+   
+}
+
+#popular  .h1_2{
+    font-size: 1.8vw;
+    font-family:"Kanit";
+    color:rgba(240, 255, 255, 0.684); 
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+
+#popular  .h1_3{
+    font-size: 1.1vw;
+    font-weight: 200;
+    color:rgba(240, 255, 255, 0.684); 
+    text-transform: capitalize;
+}
+#popular #imgtextcontainer_1 img{
+    height: 70vh;
+    width: 30vw;
+}
+
+#popular #imgtextcontainer_2{   
+    height: 100vh;
+    margin-right: 8vw;
+    margin-top: 20vh;
+    /* position: absolute; */
+    float: right;
+}
+#popular #imgtextcontainer_2 a{
+    text-decoration: none;
+   
+}
+#popular #imgtextcontainer_2 img{
+    height: 78vh;
+    width: 33vw;
+    
+}
+#popular #imgtextcontainer_3 img{
+    height: 70vh;
+    width: 30vw;
+    
+}
+#popular #imgtextcontainer_3{
+    margin-left: 10vw;
+    margin-top: 35vh;
+    /* position: absolute; */
+    float: left;
+    
+}
+#popular #imgtextcontainer_3 a{
+    text-decoration: none;
+   
+}
+#popular #imgtextcontainer_4{
+    margin-right: 10vw;
+    margin-top: 17vh;
+    /* position: absolute; */
+    float: right;
+    
+}
+#popular #imgtextcontainer_4 a{
+    text-decoration: none;
+   
+}
+#popular #imgtextcontainer_4 img{
+    height: 70vh;
+    width: 30vw;
+    
+}
+#trending{
+    min-height:70vh;
+    max-width: 100vw;
+    margin-top: -2vh;
+}
+
+#trending #heading_1 h1{
+    padding-top:0vh ;
+    padding-left: 40vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    
+}
+#trending #imgtextcontainer_5{
+    margin-top: 20vh;
+    margin-left: 10vw;
+    
+}
+#trending  #imgtextcontainer_5 img{
+    height: 50vh;
+    width: 40vw;
+    float: left;
+    /* position: absolute; */
+   
+}
+
+#trending .h1_2{   
+    /* position: absolute; */
+    font-size: 2vw;
+    font-family:"Kanit";
+    font-weight: 300;
+    padding-left: 60vw;
+    padding-top: 10vh;
+    text-transform: capitalize;
+    
+    
+}
+#trending .h1_3{   
+    /* position: absolute; */
+    font-size: 1.3vw;
+    font-weight: 200;
+    margin-left: 60vw;
+    text-transform: capitalize;
+}
+#trending #morebutton{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70vw;
+    margin-top: 8vh;
+    text-transform: capitalize;
+}
+#trending #morebutton:hover{
+   background-color:rgba(240, 255, 255, 0.400);
+}
+#trending #morebutton:hover a{
+    color:#0C1221;
+ }
+#trending #morebutton a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#newlaunched{
+    margin-top: 30vh;
+    min-height:70vh;
+    max-width: 100vw;
+}
+
+#newlaunched #heading_1 h1{
+    padding-top:5vh ;
+    padding-left: 38vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    
+
+}
+#newlaunched #imgtextcontainer_6{
+    margin-top: 20vh;
+    padding-left: 10vw;
+    
+}
+#newlaunched  #imgtextcontainer_6 img{
+    height: 53vh;
+    width: 40vw;
+    float: left;
+    /* position: absolute; */
+   
+}
+
+#newlaunched .h1_2{   
+    /* position: absolute; */
+    font-size: 2vw;
+    font-family:"Kanit";
+    font-weight: 300;
+    margin-left: 60vw;
+    padding-top: 15vh;
+    text-transform: capitalize;
+    
+    
+}
+#newlaunched .h1_3{   
+    /* position: absolute; */
+    font-size: 1.3vw;
+    font-weight: 200;
+    margin-left: 60vw;
+    text-transform: capitalize;
+}
+#newlaunched #morebutton{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70vw;
+    margin-top: 8vh;
+    text-transform: capitalize;
+    
+}
+#newlaunched #morebutton:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#newlaunched #morebutton:hover a{
+    color:#0C1221;
+    
+    
+}
+#newlaunched #morebutton a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#findcar{
+    height: 90vh;
+    width: 80vw;
+    margin-top: 33vh;
+    margin-left: 10vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+}
+#findcar #heading_1 h1{
+    padding-top:5vh ;
+    padding-left: 20vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4vw;
+    
+
+}
+#findcar #budget{
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin: 3vh 4.5vw;
+    float: left;
+}
+#budget #heading_1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    margin-top: -2vh;
+    margin-left: -9vw;
+}
+#budget #buttons{
+    display: flex;
+    
+}
+#budget #buttons1{
+    display: flex;
+    
+}
+
+#budget #budgetbtn{
+    height: 6vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    
+}
+#budget #budgetbtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#budget #budgetbtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#budget #budgetbtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#findcar #bodytype{
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin: 3vh 4.5vw;
+    float: right;
+}
+#bodytype #heading_1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    margin-top: -2vh;
+    margin-left: -9vw;
+}
+#bodytype #buttons{
+    display: flex;
+    
+}
+#bodytype #buttons1{
+    display: flex;
+    
+}
+
+#bodytype #bodytypebtn{
+    height: 6vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    
+}
+#bodytype #bodytypebtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#bodytype #bodytypebtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#bodytype #bodytypebtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#findcar #fuletype{
+    height: 30vh;
+    width: 20vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin: 3vh 3vw;
+    float: right;
+}
+#fuletype #heading_1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    margin-top: -2vh;
+    margin-left: -14vw;
+}
+#fuletype #buttons{
+    display: flex;
+    
+}
+#fuletype #buttons1{
+    display: flex;
+    
+}
+
+#fuletype #fuletypebtn{
+    height: 6vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    
+}
+#fuletype #fuletypebtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#fuletype #fuletypebtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#fuletype #fuletypebtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#findcar #seatingcapacity{
+    height: 30vh;
+    width: 20vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin: 3vh 3vw;
+    float: right;
+}
+#seatingcapacity #heading_1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    margin-top: -2vh;
+    margin-left: -17vw;
+}
+#seatingcapacity #buttons{
+    display: flex;
+    
+}
+#seatingcapacity #buttons1{
+    display: flex;
+    
+}
+
+#seatingcapacity #seatingcapacitybtn{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    
+}
+#seatingcapacity #seatingcapacitybtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#seatingcapacity #seatingcapacitybtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#seatingcapacity #seatingcapacitybtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#findcar #transmission{
+    height: 30vh;
+    width: 20vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin: 3vh 3vw;
+    float: right;
+}
+#transmission #heading_1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2vw;
+    margin-top: -2vh;
+    margin-left: -16vw;
+}
+#transmission #buttons{
+    display: flex;
+    
+}
+#transmission #buttons1{
+    display: flex;
+    
+}
+
+#transmission #transmissionbtn{
+    height: 6vh;
+    width: 20vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";
+    font-size: 0.60vw;  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    margin-top: 3vh;
+    text-transform: capitalize;
+    
+}
+#transmission #transmissionbtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+    
+    
+}
+#transmission #transmissionbtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#transmission #transmissionbtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#sellcar{
+    height: 70vh;
+    width: 50vw;
+    border: 1px solid rgba(240, 255, 255, 0.684);
+    border-radius: 5px;
+    margin-top: 20vh;
+    margin-left: 25vw;
+    padding: 2vh 2vw;
+   
+}
+#sellcar h1{
+    font-size: 4vw;
+    text-transform: capitalize;
+    margin-bottom: 3vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#sellcar h2{
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+#sellcar #s1{
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+#sellcar #sellbtn{
+    height: 8vh;
+    width: 14vw;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    /* position: absolute; */
+    font-family:"Kanit";  
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17vw;
+    margin-top: 10vh;
+    text-transform: uppercase;
+    
+}
+#sellcar #sellbtn:hover{
+    background-color:rgba(240, 255, 255, 0.400);
+  
+}
+#sellcar #sellbtn:hover a{
+    color:#0C1221;
+    
+    
+}
+#sellcar #sellbtn a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+   
+    
+} 
+#sellcar #sellbtn h1{
+    padding-top: 2.5vh;
+    font-size: 2vw;
+}
+#footer{
+    margin-top: 50vh;
+    display: flex;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+#footer #followus{
+    margin-left: 3vw;
+
+}
+#followus #icons{
+    margin-top: -7vh;
+    margin-left: 2vw;
+}
+#followus #icons img{
+   
+    height: 3.5vh;
+    width: 1.8vw;
+}
+#followus h2{
+    margin-top: 18vh;
+    margin-left: 4vw;
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    
+}
+#footer #sitemap{
+    margin-left: 15vw;
+}
+#sitemap h1{
+    font-size: 2vw;
+    font-weight: 900;
+    padding-bottom: 4vh;
+    text-transform: capitalize;
+    
+}
+#sitemap h2{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    
+}
+#sitemap h2 a{
+    text-decoration:none;
+    color:rgba(240, 255, 255, 0.684); 
+}
+#sitemap h2 a:hover{
+    
+    color:aqua; 
+}
+#footer #contact{
+    margin-left: 15vw;
+    margin-right: 10vw;
+}
+#contact h1{
+    font-size: 2vw;
+    font-weight: 900;
+    padding-bottom: 4vh;
+    text-transform: capitalize;
+    
+}
+#contact h2{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    
+}
+#contact #mail{
+    text-transform: lowercase;
+}
+#contact #mail a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+}
+#contact #mail a:hover{
+   
+    color:aqua; 
+}
+#copyright{
+   padding-top:2vh;
+   padding-left: 17vw;
+   text-transform: lowercase;
+   font-weight: 10;
+   font-family:'Courier New', Courier, monospace;
+}
+#copyright h2{
+    font-size: 1vw;
+}
+
+/* media query for responsive */
+@media (max-width:1200px){
+    #nav #logo_2 {
+       
+        padding-top: 5.5vh;
+        
+    
+    }
+    #nav #menu{
+        height: 5vh;
+        width: 7vw;
+        margin-top: 6vh;
+        
+    }
+    #page #h1_1{
+        margin-top: 38vh;
+       
+    }
+    #page #h1_2{
+       
+        margin-top:45vh ;
+        line-height: 30vh;
+       
+    }
+    #page #i1{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i2{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 38vw;
+        
+    }
+    #page #i3{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i4{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 65vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i5{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 65vh;
+        margin-left: 38vw;
+       
+    }
+    #page #i6{
+        height: 17vh;
+        width: 17vw;
+        margin-top: 65vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i7{
+        height: 30vh;
+        width: 28vw;
+        margin-top: 38vh;
+        margin-left: 15vw;
+       
+    
+    }
+    #page #i8{
+        height: 30vh;
+        width: 28vw;
+        margin-top: 38vh;
+        margin-left: 50vw;
+       
+    }
+    #round{
+        height: 4vh;
+        width: 3vw;
+        border-radius: 50%;
+        background-color: aqua;
+        margin-top: 3vh;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        
+    }
+    #trending #morebutton{
+        height: 5vh;
+        width: 7vw;
+        
+    }
+    #newlaunched #morebutton{
+        height: 5vh;
+        width: 7vw;
+       
+        
+    }
+    #findcar #budget{
+        height: 25vh;
+       
+    }
+    #budget #budgetbtn{
+        height: 4vh;
+        
+    }
+    #findcar #bodytype{
+        height: 25vh;
+        width: 30vw;
+        
+    }
+    #bodytype #bodytypebtn{
+        height: 4vh;
+        width: 15vw;
+        
+        
+    }
+    #findcar #fuletype{
+        height: 25vh;
+        width: 20vw;
+       
+    }
+    #fuletype #fuletypebtn{
+        height: 4vh;
+        width: 15vw;
+       
+        
+    }
+    #findcar #seatingcapacity{
+        height: 25vh;
+        width: 20vw;
+        
+    }
+    #seatingcapacity #seatingcapacitybtn{
+        height: 4vh;
+        width: 20vw;
+       
+    }
+    #findcar #transmission{
+        height: 25vh;
+        width: 20vw;
+       
+    }
+    #transmission #transmissionbtn{
+        height: 4vh;
+        width: 20vw;
+       
+    }
+    #sellcar{
+        height: 50vh;
+        width: 50vw;
+       
+       
+    }
+    #sellcar #sellbtn{
+        height: 4vh;
+        width: 14vw;
+       
+    }
+    #findcar{
+        height: 82vh;
+        width: 80vw;
+       
+    }
+    #followus h2{
+        margin-top: 12vh;
+        
+    }
+    #followus #icons{
+        margin-top: -4vh;
+       
+    }
+    #followus #icons img{
+       
+        height: 3vh;
+        width: 1.8vw;
+    }
+}
+@media (max-width:996px){
+    #nav #logo_2 {
+       
+        padding-top: 4.6vh;
+        
+    
+    }
+    #round{
+        height: 3vh;
+        margin-top: 2.5vh;
+        
+    }
+    #followus #icons{
+        margin-top: -3vh;
+       
+    }
+    #followus #icons img{
+       
+        height: 2.5vh;
+        width: 1.8vw;
+    }
+    #sitemap h1{
+       
+        padding-bottom: 2vh;
+      
+    }
+}
+@media (max-width:768px){
+    #nav #logo_2 {
+       
+        padding-top: 3.7vh;
+        
+    
+    }
+    #nav #menu{
+        height: 4vh;
+        width: 7vw;
+        margin-top: 4vh;
+        
+    }
+    #page #h1_1{
+        margin-top: 35vh;
+       
+    }
+    #page #h1_2{
+       
+        margin-top:40vh ;
+        line-height: 25vh;
+       
+    }
+    #page #i1{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i2{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 38vw;
+        
+    }
+    #page #i3{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i4{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 55vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i5{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 55vh;
+        margin-left: 38vw;
+       
+    }
+    #page #i6{
+        height: 12vh;
+        width: 17vw;
+        margin-top: 55vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i7{
+        height: 23vh;
+        width: 28vw;
+        margin-top: 35vh;
+        margin-left: 15vw;
+       
+    
+    }
+    #page #i8{
+        height: 23vh;
+        width: 28vw;
+        margin-top: 35vh;
+        margin-left: 50vw;
+       
+    }
+    #movingtext{
+        padding-top: 90vh;
+       
+    }
+    #round{
+        height: 3vh;
+        margin-top: 1.5vh;
+        
+        
+    }
+    #popular{
+        height: 380vh;
+        max-width: 100vw;
+       
+        
+    }
+    #popular #heading_1 h1{
+       
+        padding-top: 20vh;
+        
+    }
+    #popular #imgtextcontainer_1{   
+        height: 50vh;
+        width:35vw;
+        margin-top: 10vh;
+        margin-left: 30vw;
+        
+    }
+  
+    #popular #imgtextcontainer_2{   
+        height: 60vh;
+        margin-right: 35vw;
+        margin-top: 35vh;
+        
+    }
+  
+   
+    #popular #imgtextcontainer_3{
+        margin-left: 33vw;
+        margin-top: 35vh;
+        /* position: absolute; */
+        float: left;
+        
+    }
+   
+    #popular #imgtextcontainer_4{
+        margin-right: 35vw;
+        margin-top:10vh;
+        /* position: absolute; */
+        float: right;
+        
+    }
+   
+    #trending #morebutton{
+        height: 3vh;
+        width: 7vw;
+        
+    }
+    #newlaunched #morebutton{
+        height: 3vh;
+        width: 7vw;
+       
+        
+    }
+    #trending  #imgtextcontainer_5 img{
+        height: 35vh;
+       
+       
+    }
+    #newlaunched  #imgtextcontainer_6 img{
+        height: 33vh;
+       
+       
+    }
+    #newlaunched{
+        margin-top: 10vh;
+        min-height:70vh;
+        max-width: 100vw;
+    }
+    
+    #findcar{
+        height: 82vh;
+        width: 80vw;
+        margin-top: 8vh;
+       
+    }
+    #followus h2{
+        margin-top: 10vh;
+        
+    }
+    #followus #icons{
+        margin-top: -3vh;
+       
+    }
+    #followus #icons img{
+       
+        height: 2.5vh;
+        width: 1.8vw;
+    }
+}
+@media (max-width:576px){
+    #nav #logo_2 {
+       
+        padding-top: 2.7vh;
+        
+    
+    }
+    #nav #menu{
+        height: 3vh;
+        width: 7vw;
+        margin-top: 2vh;
+        
+    }
+    #page #h1_1{
+        margin-top: 38vh;
+       
+    }
+    #page #h1_2{
+       
+        margin-top:38vh ;
+        line-height: 20vh;
+       
+    }
+   
+    #movingtext{
+        padding-top: 90vh;
+       
+    }
+    #round{
+        height: 2vh;
+        margin-top: 1vh;
+        
+        
+    }
+   
+    
+    #findcar{
+        height: 150vh;
+        width: 80vw;
+        margin-top: 8vh;
+       
+    }
+    #findcar #budget{
+        height: 20vh;
+        width: 50vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+       margin-left: 15vw;
+        
+    }
+    #budget #heading_1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vw;
+        margin-top: -2vh;
+        margin-left: 2vw;
+    }
+    #findcar #bodytype{
+        height: 20vh;
+        width: 50vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+        margin-top: 4vh;
+        margin-right: 15vw;
+       
+        
+    }
+    #bodytype #heading_1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vw;
+        margin-top: -2vh;
+        margin-left: 2vw;
+    }
+    #findcar #fuletype{
+        height: 22vh;
+        width: 33vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+        margin-top: 4vh;
+        margin-right: 23vw;
+    }
+    #fuletype #heading_1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vw;
+        margin-top: -2vh;
+        margin-left: -7vw;
+    }
+    #findcar #seatingcapacity{
+        height: 22vh;
+        width: 33vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+       margin-top: 4vh;
+       margin-right: 23vw;
+    }
+    #seatingcapacity #heading_1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vw;
+        margin-top: -2vh;
+        margin-left: -11vw;
+    }
+    #findcar #transmission{
+        height: 22vh;
+        width: 33vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+       margin-top: 4vh;
+       margin-right: 23vw;
+    }
+    #transmission #heading_1 h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2vw;
+        margin-top: -2vh;
+        margin-left: -10vw;
+    }
+    #transmission #buttons{
+        margin-left: 5vw;
+        
+    }
+    #transmission #buttons1{
+        margin-left: 5vw;
+        
+    }
+    #sellcar{
+        height: 40vh;
+        width: 50vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+        margin-top: 20vh;
+        margin-left: 25vw;
+        padding: 2vh 2vw;
+       
+    }
+    #followus h2{
+        margin-top: 10vh;
+        
+    }
+    #followus #icons{
+        margin-top: -2vh;
+       
+    }
+    #followus #icons img{
+       
+        height: 2vh;
+        width: 1.8vw;
+    }
+}
+@media (max-width:320px){
+    #nav #logo_2 {
+       
+        padding-top: 1.6vh;
+        
+    
+    }
+    #nav #menu{
+        height: 2vh;
+        width: 7vw;
+        margin-top: 2vh;
+        
+    }
+   
+    #page #i1{
+        height:7vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i2{
+        height: 7vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 38vw;
+        
+    }
+    #page #i3{
+        height: 7vh;
+        width: 17vw;
+        margin-top: 25vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i4{
+        height: 7vh;
+        width: 17vw;
+        margin-top: 38vh;
+        margin-left: 73vw;
+       
+    }
+    #page #i5{
+        height: 7vh;
+        width: 17vw;
+        margin-top: 38vh;
+        margin-left: 38vw;
+       
+    }
+    #page #i6{
+        height: 7vh;
+        width: 17vw;
+        margin-top: 38vh;
+        margin-left: 5vw;
+       
+    }
+    #page #i7{
+        height: 10vh;
+        width: 28vw;
+        margin-top: 30vh;
+        margin-left: 15vw;
+       
+    
+    }
+    #page #i8{
+        height: 10vh;
+        width: 28vw;
+        margin-top: 30vh;
+        margin-left: 50vw;
+       
+    }
+    #page #h1_1{
+        margin-top: 31vh;
+       
+    }
+    #page #h1_2{
+       
+        margin-top:31vh ;
+        line-height: 12vh;
+       
+    }
+   
+    #movingtext{
+        padding-top: 60vh;
+       
+    }
+    #round{
+        height: 1vh;
+        margin-top: 0.8vh;
+        
+        
+    }
+   
+    #sellcar{
+        height: 35vh;
+        width: 50vw;
+        border: 1px solid rgba(240, 255, 255, 0.684);
+        border-radius: 5px;
+        margin-top: 20vh;
+        margin-left: 25vw;
+        padding: 2vh 2vw;
+       
+    }
+    #followus h2{
+        margin-top: 6vh;
+        
+    }
+    #followus #icons{
+        margin-top: -1vh;
+       
+    }
+    #followus #icons img{
+       
+        height: 1vh;
+        width: 1.8vw;
+    }#sitemap h1{
+        font-size: 2vw;
+        font-weight: 900;
+        padding-bottom: 2vh;
+        text-transform: capitalize;
+        
+    }
+    #sitemap h2{
+        font-size: 1.3vw;
+        font-weight: 100;
+        text-transform: capitalize;
+        line-height: 1vh;
+        
+    }
+    #contact h1{
+        font-size: 2vw;
+        font-weight: 900;
+        padding-bottom: 2vh;
+        text-transform: capitalize;
+        
+    }
+    #contact h2{
+        font-size: 1.3vw;
+        font-weight: 100;
+        text-transform: capitalize;
+        line-height: 1vh;
+        
+    }
+}

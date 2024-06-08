@@ -1,0 +1,206 @@
+body{
+    background-color:#0C1221;
+
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgba(240, 255, 255, 0.684);
+    margin-top: 20vh;
+}
+#one {
+    overflow: hidden;
+    height: 490px;
+    width: 375px;
+}
+#one img{
+    opacity: 0.7;
+}
+.cont #one:hover img{
+    height: 375px;
+    width: 375px;
+    opacity: 1;
+
+}
+.cont #one:hover{
+   cursor: pointer;
+}
+.cont #one:hover h1{
+   color: aqua;
+ }
+ .cont #one:hover h2{
+    color: aqua;
+  }
+  #nav{
+  
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    z-index: 10;
+    margin-top: -17vh;
+}
+
+#nav .logo a{
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-left: 3vw;
+    color: rgba(125, 234, 234, 0.802);
+    font-weight: 900;
+}
+#nav #logo_1 {
+    position: absolute;
+   
+    
+}
+#nav #logo_2 {
+    position: absolute;
+    padding-top: 10vh;
+    padding-left: 1.5vw;
+
+}
+#nav #mainmenu a{
+    color:rgba(240, 255, 255, 0.684) ;
+    text-decoration: none;
+
+}
+
+
+#nav #mainmenu a:hover{
+    color:aquamarine;
+
+}
+
+#nav #menu{
+    height: 7vh;
+    width: 7vw;
+    border-radius: 5px;
+    border: 1px  solid rgba(240, 255, 255, 0.684) ;
+    font-family:"Kanit";
+    font-size: 0.75vw;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 89vw;
+    margin-top: 8vh;
+    text-transform: uppercase;
+}
+#nav #menu:hover{
+   background-color:rgba(240, 255, 255, 0.400);
+}
+
+#nav #menu:hover a{
+    color:#0C1221;
+ }
+#nav #menu a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+    
+}
+#footer{
+    margin-top: 50vh;
+    display: flex;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    
+   
+  }
+  #footer #followus{
+    margin-left: 3vw;
+  
+  }
+  #followus #icons{
+    margin-top: -2vh;
+    margin-left: 3.5vw;
+  }
+  #followus #icons img{
+   
+    height: 3.5vh;
+    width: 1.8vw;
+  }
+  #followus h2{
+    padding-top:20vh;
+    margin-left: 4vw;
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    color:rgba(240, 255, 255, 0.684)
+    
+  }
+#footer #sitemap{
+    margin-left: 15vw;
+}
+#sitemap h1{
+    font-size: 2vw;
+    font-weight: 900;
+    padding-bottom: 4vh;
+    text-transform: capitalize;
+    color:rgba(240, 255, 255, 0.684)
+    
+}
+#sitemap h2{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    
+}
+#sitemap h2 a{
+    text-decoration:none;
+    color:rgba(240, 255, 255, 0.684); 
+}
+#sitemap h2 a:hover{
+    
+    color:aqua; 
+}
+#footer #contact{
+    margin-left: 15vw;
+    margin-right: 10vw;
+}
+#contact h1{
+    font-size: 2vw;
+    font-weight: 900;
+    padding-bottom: 4vh;
+    text-transform: capitalize;
+    color:rgba(240, 255, 255, 0.684)
+}
+#contact h2{
+    font-size: 1.3vw;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 4vh;
+    color:rgba(240, 255, 255, 0.684)
+}
+#contact #mail{
+    text-transform: lowercase;
+}
+#contact #mail a{
+    text-decoration: none;
+    color:rgba(240, 255, 255, 0.684); 
+}
+#contact #mail a:hover{
+   
+    color:aqua; 
+}
+#copyright{
+   padding-top:2vh;
+   padding-left: 17vw;
+   text-transform: lowercase;
+   font-weight: 10;
+   font-family:'Courier New', Courier, monospace;
+}
+#copyright h2{
+    font-size: 1vw;
+    color:rgba(240, 255, 255, 0.684);
+}
+
+#followus  #nav{
+    position: absolute;
+    margin-top: 3vh;
+}

@@ -1,0 +1,15 @@
+body a{
+text-decoration: none;
+color: rgba(240, 255, 255, 0.684);
+
+
+}
+body h1{
+    margin-left: 43vw;
+    font-size: 4vw;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body  h1:hover{
+    color: aquamarine;
+}
