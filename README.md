@@ -1,6 +1,3 @@
-carwale.com !~~ https://carwale-web.netlify.app
-
-housing.com !~~ https://housing-web.netlify.app
 # Car Wale & House Com
 
 This repository contains two web projects: **Car Wale**, a platform for buying and selling cars, and **House Com**, a property listing website. Both are designed with responsive, user-friendly interfaces and deployed on Netlify.
