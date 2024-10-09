@@ -51,11 +51,11 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 
 ### Car Wale
 
-![Car Wale Screenshot](path/to/screenshot1.png)
+![Car Wale Screenshot](https://drive.google.com/drive/u/0/folders/1-pZaRBWIFCll8JdJFxqdp-yyaO-_o_6v)
 
 ### House Com
 
-![House Com Screenshot](path/to/screenshot2.png)
+![House Com Screenshot](https://drive.google.com/drive/u/0/folders/1-pZaRBWIFCll8JdJFxqdp-yyaO-_o_6v)
 
 ## Getting Started
 
