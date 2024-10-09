@@ -55,7 +55,7 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 
 ### House Com
 
-![House Com Screenshot](https://drive.google.com/drive/u/0/folders/1-pZaRBWIFCll8JdJFxqdp-yyaO-_o_6v)
+![House Com Screenshot](https://drive.google.com/uc?export=view&id=1A2B3C4D5E6F7G8H)
 <img src="https://drive.google.com/drive/u/0/folders/1-pZaRBWIFCll8JdJFxqdp-yyaO-_o_6v" alt="Project Screenshot" width="400"/>
 
 
