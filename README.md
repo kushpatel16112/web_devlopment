@@ -50,10 +50,6 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 ## Screenshots
 
 ### Car Wale
-
-![Car Wale Screenshot](https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png)
-## Carousel Simulation
-
 ### Step 1
 ![Slide 1](https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png)
 
