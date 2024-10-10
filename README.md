@@ -62,9 +62,15 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 
 ### House Com
 
-![House Com Screenshot](https://drive.google.com/uc?export=view&id=1A2B3C4D5E6F7G8H)
-<img src="https://drive.google.com/drive/u/0/folders/1-pZaRBWIFCll8JdJFxqdp-yyaO-_o_6v" alt="Project Screenshot" width="400"/>
+![House Com Screenshot](https://github.com/kushpatel16112/web_devlopment/blob/master/HOUSE_COM/images/Housing_web_1.png)
+<p align="center">
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/HOUSE_COM/images/Housing_web_1.png" width="1200"/>
+</p>
 
+<p align="center">
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/HOUSE_COM/images/Housing_web_2.png" width="600"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/HOUSE_COM/images/Housing_web_3.png" width="600"/>
+</p>
 
 ## Getting Started
 
