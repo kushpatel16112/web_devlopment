@@ -1,6 +1,6 @@
-# Car Wale & House Com
+# Car Wale & Housing Web
 
-This repository contains two web projects: **Car Wale**, a platform for buying and selling cars, and **House Com**, a property listing website. Both are designed with responsive, user-friendly interfaces and deployed on Netlify.
+This repository contains two web projects: **Car Wale**, a platform for buying and selling cars, and **Housing Web**, a property listing website. Both are designed with responsive, user-friendly interfaces and deployed on Netlify.
 
 ## Projects Overview
 
@@ -51,16 +51,16 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 
 ### Car Wale
 <p align="center">
-  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png" width="1200"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png" width="1200" style="border: 2px solid black; margin-bottom: 20px;"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png" width="600"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png" width="600" />
   <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_3.png" width="600"/>
 </p>
 
 
-### House Com
+### Housing Web
 
 ![House Com Screenshot](https://github.com/kushpatel16112/web_devlopment/blob/master/HOUSE_COM/images/Housing_web_1.png)
 <p align="center">
