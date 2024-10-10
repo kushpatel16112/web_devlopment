@@ -50,14 +50,15 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 ## Screenshots
 
 ### Car Wale
-### Step 1
-![Slide 1](https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png)
+<p align="center">
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png" width="600"/>
+</p>
 
-### Step 2
-![Slide 2](https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png)
+<p align="center">
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png" width="300"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_3.png" width="300"/>
+</p>
 
-### Step 3
-![Slide 3](https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_3.png)
 
 ### House Com
 
