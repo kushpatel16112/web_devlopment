@@ -51,12 +51,12 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 
 ### Car Wale
 <p align="center">
-  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png" width="600"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_1.png" width="1200"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png" width="300"/>
-  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_3.png" width="300"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_2.png" width="600"/>
+  <img src="https://github.com/kushpatel16112/web_devlopment/blob/master/CAR_WALE/Images/Car_Wale_3.png" width="600"/>
 </p>
 
 
