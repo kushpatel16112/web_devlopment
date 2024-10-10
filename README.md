@@ -73,3 +73,27 @@ This repository contains two web projects: **Car Wale**, a platform for buying a
 ## Getting Started
 
 1. Clone this repository:
+   git clone https://github.com/kushpatel16112/web_devlopment.git
+
+2. Open the respective `index.html` or `home.html` files in your browser to view the projects locally.
+
+## Technologies Used
+
+- **HTML5**: For page structure.
+- **CSS3**: For styling and responsive design.
+- **JavaScript**: For interactivity.
+- **Netlify**: For deployment.
+
+## Future Enhancements
+
+### Car Wale:
+- Implement a user account system for managing car listings.
+- Add a car comparison feature.
+
+### House Com:
+- Implement a backend for property management.
+- Add map integration to show property locations.
+
+## License
+
+This project is open source for everyone.
